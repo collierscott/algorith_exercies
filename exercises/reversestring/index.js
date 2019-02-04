@@ -6,9 +6,7 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-// function reverse(str) {
-//   return str.split('').reverse().join('');
-// }
+// This contains several different ways to reverse a string
 
 function reverse(str) {
   // Takes starting argument (empty string)
@@ -48,3 +46,8 @@ module.exports = reverse;
 //
 //   return arry.join('');
 // }
+
+// function reverse(str) {
+//   return str.split('').reverse().join('');
+// }
+
