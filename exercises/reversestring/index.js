@@ -11,9 +11,12 @@
 function reverse(str) {
   // Takes starting argument (empty string)
   return str.split('').reduce((reversed, character) => {
+    debugger;
     return character + reversed;
   }, '');
 }
+
+reverse('asdf');
 
 module.exports = reverse;
 
